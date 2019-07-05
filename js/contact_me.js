@@ -20,7 +20,7 @@ $(function() {
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
-        url: "https://smartsigntechnology.com:8002/",
+        url: "https://smartsigntechnology.com:8002/contact_message",
         type: "POST",
         data: {
           name: name,
