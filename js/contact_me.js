@@ -30,7 +30,7 @@ $(function() {
         },
         cache: false,
         success: function(results) {
-          alert(results);
+         // alert(results);
           console.log(results);
           // Success message
           $('#success').html("<div class='alert alert-success'>");
