@@ -113,7 +113,7 @@
 
   <!-- Portfolio Grid -->
   <section class="bg-light page-section" id="portfolio">
-    <p style='margin:15px;'>I've been a hobbyist developer for over 30 years. After retiring from the US Army in 2011, I
+    <p style='margin:5px;'>I've been a hobbyist developer for over 30 years. After retiring from the US Army in 2011, I
       returned to college and earned my bachelor's degree in information technology. I graduated with high honors and
       continue to pursue a career in technology.</p>
     <div class="container">
@@ -196,8 +196,10 @@
           <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
         </div>
       </div>
-      <p>After serving for over 20 years as a US Army soldier, leader and hobbyist developer, I'm ready to work again for a living.
-        After retirement from the Army in 2011, I returned to college and achieved my bachelor's degree along with an advanced
+      <p>After serving for over 20 years as a US Army soldier, leader and hobbyist developer, I'm ready to work again
+        for a living.
+        After retirement from the Army in 2011, I returned to college and achieved my bachelor's degree along with an
+        advanced
         technology certificate in web application programming. Give me the opportunity to exceed your
         expectations. Failure is never an option.</p>
     </div>
@@ -209,7 +211,9 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">The Amazing Team</h2>
-          <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+          <h3 class="section-subheading text-muted">Although I'm able and willing to work as a valuable member of any
+            team, I'm equally capable for delivering quality software independently through each phase of the software
+            development lifecycle. </h3>
         </div>
       </div>
       <div class="row">
@@ -285,7 +289,8 @@
             </ul>
           </div>
         </div>
-        <h4>Full Stack Developer, node-js, express, c#, .net, SQL, mongoose, python, html, css, jquery</h4>
+        <h4 style="margin:15px;">Full Stack Developer, node-js, express, c#, .net, SQL, mongoose, python, html, css,
+          jquery</h4>
       </div>
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
@@ -363,16 +368,19 @@
               <div class="clearfix"></div>
               <div class="col-lg-12 text-center">
                 <div id="success"></div>
-            
-                <button id="sendMessageButton" onclick="alert('Send me an email with the link instead!');" class="btn btn-primary btn-xl text-uppercase" type="submit">Send
-                    Message</button>
-                
+
+                <button disabled id="sendMessageButton" onclick="$('.form-group').hide();return false;"
+                  class="btn btn-primary btn-xl text-uppercase" type="submit">Send
+                  Message</button>
+
               </div>
             </div>
           </form>
           <div style='margin:auto;text-align: center;'>
-          <a href="mailto:sheldon@pasciak.com"><h1>Please E-mail me by using this link</h1></a>
-        </div>
+            <a href="mailto:sheldon@pasciak.com">
+              <h1>Please E-mail me instead by using this link.</h1>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -387,21 +395,21 @@
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
+            <!-- <li class="list-inline-item">
               <a href="#">
                 <i class="fab fa-twitter"></i>
               </a>
-            </li>
+            </li> -->
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.facebook.com/sheldon.pasciak">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
-            <li class="list-inline-item">
+            <!-- <li class="list-inline-item">
               <a href="#">
                 <i class="fab fa-linkedin-in"></i>
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
         <div class="col-md-4">
