@@ -1,5 +1,5 @@
 {
-    "title": "Agency",
+    "title": "Default",
     "name": "startbootstrap-agency",
     "version": "5.2.1",
     "scripts": {
@@ -22,7 +22,8 @@
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "David Miller (http://davidmiller.io/)",
+        "Sheldon Pasciak (https://pasciaks.github.io)"
     ],
     "repository": {
         "type": "git",
