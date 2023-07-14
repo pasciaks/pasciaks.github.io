@@ -147,7 +147,7 @@
 
     <!-- Portfolio Grid -->
 
-    <section class="bg-light page-section" id="portfolio">
+    <section class="bg-light page-section" id="portfolio" style="margin:15px;">
       <p style="margin: 5px">
         I've been a hobbyist developer for over 30 years. Following my
         retirement from active duty with the US Army in 2011, I returned to
@@ -270,6 +270,23 @@
           web application programming. Give me the opportunity to exceed your
           expectations. Failure is never an option.
         </p>
+
+        <img src="https://avatars1.githubusercontent.com/u/4236023?s=460&v=4" class='img-responsive'
+        style='max-width:250px;'>
+
+    <a href="tel:3866755721">
+        <h6 class="flexStyle"><i style="color:blue;" class="fa fa-phone" aria-hidden="true"></i>&nbsp;(386)
+            386-675-5721 </h6>
+    </a>
+<p><h3>Summary</h3>
+Full Stack developer with experience developing a high performance web applications in the healthcare industry.
+Seeking a full/part-time, remote opportunity on a small to medium sized team. Proficiency in application development primarily working with React, Node and Sequelize based MySQL and
+Postgres databases. Past experience with C#, and Microsoft .NET for web application and API development. Extensive history of application development over many years using the prevailing technologies at those times [Python, C++, Express/EJS, NOSQL].
+</p>
+    <a href="https://pasciak.com/Sheldon-Pasciak.pdf">Resume</a> |
+    <a href="https://pasciaks.github.io/">Github Pages Page</a> |
+    <a href="https://github.com/pasciaks/">Github Repos</a>
+
       </div>
     </section>
 
@@ -412,7 +429,7 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <form id="contactForm" name="sentMessage" onsubmit="return false;">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -433,7 +450,7 @@
                       id="email"
                       type="email"
                       placeholder="Your Email *"
-                      required="required"
+                      required
                       data-validation-required-message="Please enter your email address."
                       value=""
                     />
@@ -470,9 +487,7 @@
                   <div id="success"></div>
 
                   <button
-                    disabled
                     id="sendMessageButton"
-                    onclick="$('.form-group').hide();return false;"
                     class="btn btn-primary btn-xl text-uppercase"
                     type="submit"
                   >
