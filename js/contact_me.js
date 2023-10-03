@@ -39,7 +39,7 @@ $(function () {
             )
             .append("</button>");
           $("#success > .alert-success").append(
-            "<strong style='color:red;'>Your message has NOT been sent. Please send an actual email instead! </strong>"
+            "<strong style='color:red;'>Your message has NOT been sent. This form was created as a demo of form capabilities.  Please feel free to email me at: sheldon@pasciak.com.</strong>"
           );
           $("#success > .alert-success").append("</div>");
           //clear all fields
@@ -57,8 +57,8 @@ $(function () {
           $("#success > .alert-danger").append(
             $("<strong>").text(
               "Sorry " +
-                firstName +
-                ", it seems that my mail server is not responding. Please try again later!"
+              firstName +
+              ", it seems that my mail server is not responding. Please try again later!"
             )
           );
           $("#success > .alert-danger").append("</div>");
