@@ -1,3 +1,24 @@
-# [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)
+💰 Full Stack Software Developer
 
-[Agency](https://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+📫 [Email me at sheldon@pasciak.com](mailto:sheldon@pasciak.com)
+
+👔 [LinkedIn](https://www.linkedin.com/in/sheldonpasciak)
+
+🔗 [Portfolio](https://pasciaks.github.io/)
+
+🏡 [https://pasciak.com](https://pasciak.com)
+
+<!--
+**pasciaks/pasciaks** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
